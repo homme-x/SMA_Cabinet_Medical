@@ -21,7 +21,7 @@ Ce projet implémente un système intelligent de gestion des patients dans un ca
 ```
 SMA_Cabinet_Medical/src
 ├── gestion_cabinet_medical_final/  
-│   ├── .java  
+│   ├── GESTION_CABINET_MEDICAL_FINAL.java  
 │   ├── MainContaiber.java 
 ├── patient/
 │   ├── Patient_Container.java
