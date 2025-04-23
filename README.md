@@ -37,7 +37,7 @@ SMA_Cabinet_Medical/src
 │   ├── Medecin_Agent.java
 │   └── MedecinInterface.java
 ├── expert/
-│   └── (Système expert futur)
+│   └── send_by_doctor_expert
 └── README.md
 ```
 
@@ -75,11 +75,7 @@ Assure-toi d’avoir les bibliothèques suivantes :
    - `jade.jar`
    - `json-simple-1.1.1.jar`
    - tous les `.jar` de JavaFX (`/lib`)
-3. Dans les configurations de lancement, ajoute cette VM Option :
-   ```
-   --module-path "chemin/vers/javafx-sdk/lib" --add-modules javafx.controls,javafx.fxml
-   ```
-4. Classes avec `main()` à exécuter :
+3. Classes avec `main()` à exécuter :
    - `patient.Patient_Container`
    - `receptionniste.Receptionniste_Container`
    - `medecin.Medecin_Container`
@@ -112,7 +108,7 @@ java receptionniste.Receptionniste_Container
 java medecin.Medecin_Container
 ```
 
-💡 Lance chaque interface dans un terminal/fenêtre distinct pour simuler les agents.
+💡 Lance chaque interface avec votre IDE(Intellij) ainsi que le fichier send_by_doctor_expert.py dans le terminal.
 
 ---
 
