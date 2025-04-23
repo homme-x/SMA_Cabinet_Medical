@@ -1,0 +1,1 @@
+{'request': Decrivez les symptomes de votre maladie}
