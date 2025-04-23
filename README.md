@@ -20,6 +20,9 @@ Ce projet implémente un système intelligent de gestion des patients dans un ca
 
 ```
 SMA_Cabinet_Medical/src
+├── gestion_cabinet_medical_final/  
+│   ├── .java  
+│   ├── MainContaiber.java 
 ├── patient/
 │   ├── Patient_Container.java
 │   ├── Patient_Agent.java
@@ -84,6 +87,12 @@ Assure-toi d’avoir les bibliothèques suivantes :
 ---
 
 ## 🚀 Lancement des interfaces
+
+### Classe MainContainer
+
+```
+java gestion_cabinet_medical_final.MainContainer
+```
 
 ### Interface Patient
 
