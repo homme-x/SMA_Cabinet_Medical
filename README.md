@@ -19,7 +19,7 @@ Ce projet implémente un système intelligent de gestion des patients dans un ca
 ## 🧱 Architecture du projet
 
 ```
-SMA_Cabinet_Medical/
+SMA_Cabinet_Medical/src
 ├── patient/
 │   ├── Patient_Container.java
 │   ├── Patient_Agent.java
